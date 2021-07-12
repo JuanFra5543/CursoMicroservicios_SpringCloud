@@ -7,9 +7,8 @@ spring:
       server:
         git:
           uri: https://github.com/JuanFra5543/CursoMicroservicios_SpringCloud.git
-          searchPath: config-data
-          username: ${GIT_USER}
-          password: ${GIT_PASSWORD}
+          search-paths: config-data
+
   security:
     user:
       name: root
