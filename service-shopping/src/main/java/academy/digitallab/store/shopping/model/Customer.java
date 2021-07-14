@@ -1,13 +1,11 @@
 package academy.digitallab.store.shopping.model;
 
-import java.io.Serializable;
-
 import lombok.Builder;
 import lombok.Data;
 
 @Data
 @Builder
-public class Customer implements Serializable {
+public class Customer {
 
     private Long id;
 
