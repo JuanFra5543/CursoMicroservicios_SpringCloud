@@ -1,4 +1,4 @@
-package academy.digitallab.store.adminad;
+package academy.digitallab.store.admin;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
